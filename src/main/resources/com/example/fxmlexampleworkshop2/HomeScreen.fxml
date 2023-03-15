@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.fxmlexampleworkshop2.HomeScreen"
+            prefHeight="400.0" prefWidth="600.0">
+<HBox spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="1" stylesheets="@Login.css">
+    <Button fx:id="btnAddMovie" text="Add Movie" />
+    <Button fx:id="btnAddScreening" text="Add Screening" />
+    <Button fx:id="btnSellTicket" text="Sell Ticket" />
+    <Button fx:id="btnRunReport" text="Run Report" />
+    <Label fx:id="welcomeMessage"  />
+</HBox>
+</AnchorPane>
